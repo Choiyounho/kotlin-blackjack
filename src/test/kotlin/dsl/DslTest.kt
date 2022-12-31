@@ -54,7 +54,7 @@ internal class DslTest {
         // when
         val actual = person.skills == listOf(
             Skill.SoftSkill("A"),
-            Skill.HardSkill("B"),
+            Skill.HardSkill("B")
         )
 
         // then
@@ -75,7 +75,7 @@ internal class DslTest {
         // when
         val actual = person.language == listOf(
             Language("java", 1),
-            Language("kotlin", 2),
+            Language("kotlin", 2)
         )
 
         // then
